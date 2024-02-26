@@ -84,11 +84,12 @@
     color: var(--button-text);
     text-decoration: none;
     padding: 10px;
-    border-radius: 3px;
+    border-radius: 100px;   /* makes the button round */
   
     /* width of the border, type, color */
     border-bottom: 2px solid var(--button-border-color);
-    transition-duration: 0.2s;
+    border-right: 2px solid var(--button-border-color);
+    transition-duration: 0.4s;
     transition-property: opacity;
   }
   
